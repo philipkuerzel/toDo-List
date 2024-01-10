@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the to-do list */
+.todo {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+.todo h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the input field and add button */
+.inputAndAdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style the task list */
+.taskItems {
+    list-style-type: none;
+}
+
+/* Style each task item */
+.taskItems li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Style the checkbox */
+.checkbox {
+    margin-right: 10px;
+}
+
+/* Style the task name */
+.taskName {
+    flex-grow: 1;
+    word-break: break-all; /* Wrap long task names */
+}
+
+/* Style the delete button */
+.delBtn {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
