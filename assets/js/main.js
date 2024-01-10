@@ -1,5 +1,5 @@
 let todos = [];
-const newTask = document.querySelector(".input");
+const newTask = document.querySelector("#input");
 
 // eventListener that calls the "addTaskToArray" function when enter key is pressed
 newTask.addEventListener("keyup" , (event) => {
@@ -50,7 +50,7 @@ const delTask = (index) => {
         todos.splice(index, 1); //remove element
         displayTasks();
     }else {
-        alert("Bist du dir sicher, dass du diese Aufgabe löschen möchtest?") // alert if the task is not done (checkbox not checked)
+        alert("Du musst diese Aufgabe zuerst erledigen, wenn du sie löschen willst 😁") // alert if the task is not done (checkbox not checked)
     }
 };
 
