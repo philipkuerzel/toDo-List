@@ -15,9 +15,9 @@
    If a task is not done, an alert will remind you to complete it first.
 
 ## File Structure
-   HTML: Used for structuring the content of the web page.
-   CSS: Used for styling the user interface and providing a visually appealing layout.
-   JavaScript: Used for dynamic functionality, such as handling user input, updating the DOM, and managing the to-do list logic.
+ - HTML: Used for structuring the content of the web page.
+ - CSS: Used for styling the user interface and providing a visually appealing layout.
+ - JavaScript: Used for dynamic functionality, such as handling user input, updating the DOM, and managing the to-do list logic.
 
 
 Start managing your tasks!
